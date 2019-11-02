@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jar_mathutils:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jar_mathutils_jar</output-path>
+    <root id="archive" name="jar_mathutils.jar">
+      <element id="module-output" name="jar_mathutils" />
+    </root>
+  </artifact>
+</component>
