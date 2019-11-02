@@ -20,16 +20,26 @@ public class MathUtils {
             sub(a, b);
         }
 
+        else if (op.equals("mul")) {
+            double a = Double.valueOf(args[1]);
+            double b = Double.valueOf(args[2]);
+            mul(a, b);
+        }
+
         else {
             System.out.println("Invalid operation: " + op);
         }
     }
 
     private static void add(double a, double b) {
-        System.out.println(a + " + " + b + " = " + (a + b));
+        System.out.println((a + b));
     }
 
     private static void sub(double a, double b) {
-        System.out.println(a + " - " + b + " = " + (a - b));
+        System.out.println((a - b));
+    }
+
+    private static void mul(double a, double b) {
+        System.out.println((a * b));
     }
 }
